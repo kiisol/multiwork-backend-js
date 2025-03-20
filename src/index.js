@@ -18,3 +18,6 @@ module.exports = {
    */
   bootstrap(/*{ strapi }*/) {},
 };
+
+// 'use strict';
+// strapi.container.get('controllers').set('plugin::users-permissions.auth.register', authController.register);
